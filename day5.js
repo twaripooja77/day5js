@@ -43,22 +43,44 @@ let x=isloggedIn || superuser;
 
 
 //objects
-let object1={
-    name:"pooja",
-    age:23,
-}
-console.log(object1.name);
-console.log(object1,"object1");
-console.log(object1["age"],"object1");
+// let object1={
+//     name:"pooja",
+//     age:23,
+// }
+// console.log(object1.name);
+// console.log(object1,"object1");
+// console.log(object1["age"],"object1");
 
-let object2={
-    name1:"banana",
-    name2:"mango",
-    name3:"strawberry",
-}
-console.log(object2);
-
-
+// let object2={
+//     name1:"banana",
+//     name2:"mango",
+//     name3:"strawberry",
+// }
+// console.log(object2);
 
 
 
+//Array  inside array example
+let intro=[
+    ["my"],
+    ["naam"],
+    ["is"],
+    ["pooja", "tiwari"]
+];
+
+console.log(intro);
+console.log(intro[0]);
+console.log(intro[1]);
+console.log(intro[2]);
+console.log(intro[3]);
+
+//Object inside object example
+
+const myfav = {
+    color: "red",
+    food: "pizza",
+    number: 7,
+    movie: { ForrestGump: 8.8, HacksawRidge: 8.1 },
+  };
+
+  console.log(myfav);
