@@ -6,13 +6,13 @@
 // const c=5;
 // alert(a+b);
 
-let a=10;
-let name="pooja";
-let test; //undefined
-//  prompt(test);
-console.log("hello I am test");
+// let a=10;
+// let name="pooja";
+// let test; //undefined
+// //  prompt(test);
+// console.log("hello I am test");
 
-let b=5;
+// let b=5;
 // alert(a+b);
 
 // let c=a+b;
@@ -24,12 +24,12 @@ let b=5;
 //double equals is used to check the value only
 //triple equals is used to check the value and datatypes
 
-let isloggedIn= true;
-let t= isloggedIn && true;
-// alert(t);
-let superuser=false;
+// let isloggedIn= true;
+// let t= isloggedIn && true;
+// // alert(t);
+// let superuser=false;
 
-let x=isloggedIn || superuser;
+// let x=isloggedIn || superuser;
 // alert(x);
 
 // if else
@@ -61,26 +61,38 @@ let x=isloggedIn || superuser;
 
 
 //Array  inside array example
-let intro=[
-    ["my"],
-    ["naam"],
-    ["is"],
-    ["pooja", "tiwari"]
-];
+// let intro=[
+//     ["my"],
+//     ["naam"],
+//     ["is"],
+//     ["pooja", "tiwari"]
+// ];
 
-console.log(intro);
-console.log(intro[0]);
-console.log(intro[1]);
-console.log(intro[2]);
-console.log(intro[3]);
+// console.log(intro);
+// console.log(intro[0]);
+// console.log(intro[1]);
+// console.log(intro[2]);
+// console.log(intro[3]);
 
-//Object inside object example
+// //Object inside object example
 
-const myfav = {
-    color: "red",
-    food: "pizza",
-    number: 7,
-    movie: { ForrestGump: 8.8, HacksawRidge: 8.1 },
-  };
+// const myfav = {
+//     color: "red",
+//     food: "pizza",
+//     number: 7,
+//     movie: { ForrestGump: 8.8, HacksawRidge: 8.1 },
+//   };
 
-  console.log(myfav);
+//   console.log(myfav);
+
+let object3={
+    person1:"pooja",
+    person2:"shivani",
+};
+if(object3.person1==="pooja")  //if(object3.person1===object3.person2)
+ {
+    alert("My name is pooja");
+}
+else{
+    alert("My name is Shivani");
+};
