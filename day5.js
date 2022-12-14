@@ -104,8 +104,11 @@ console.log(array1);
 
 let info={
     myname:"pooja",
-    age:"23",
+    age:"19",
 };
-if(info.myname ==="pooja" && info.age > 20){
+if(info.myname ==="pooja" && info.age > 20){     //Single Threading
     alert(info.age);
-};
+}else if(
+    info.myname === "pooja" && info.age < 20){
+        alert("Failed to execute");
+    };
