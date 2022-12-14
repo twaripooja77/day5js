@@ -97,18 +97,36 @@
 //     alert("My name is Shivani");
 // };
 
-let array1=[56,66,67,32,54,90,69,58,54,65];
-array1.push(77);
-console.log(array1);
+// let array1=[56,66,67,32,54,90,69,58,54,65];
+// array1.push(77);
+// console.log(array1);
 
 
-let info={
-    myname:"pooja",
-    age:"19",
-};
-if(info.myname ==="pooja" && info.age > 20){     //Single Threading
-    alert(info.age);
-}else if(
-    info.myname === "pooja" && info.age < 20){
-        alert("Failed to execute");
-    };
+// let info={
+//     myname:"pooja",
+//     age:"19",
+// };
+// if(info.myname ==="pooja" && info.age > 20){     //Single Threading
+//     alert(info.age);
+// }else if(
+//     info.myname === "pooja" && info.age < 20){
+//         alert("Failed to execute");
+//     };
+
+//FUNCTION
+
+// function add(parameter1, parameter2){
+
+// }
+// add(argument1, argument2);
+
+// function add(a, b){
+//     return alert(a+b);
+// }
+// add(10,20);
+// add(200,200);
+
+function mul(a, b){
+return alert(a*b);
+}
+mul(20, 12);
