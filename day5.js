@@ -85,14 +85,27 @@
 
 //   console.log(myfav);
 
-let object3={
-    person1:"pooja",
-    person2:"shivani",
+// let object3={
+//     person1:"pooja",
+//     person2:"shivani",
+// };
+// if(object3.person1==="pooja")  //if(object3.person1===object3.person2)
+//  {
+//     alert("My name is pooja");
+// }
+// else{
+//     alert("My name is Shivani");
+// };
+
+let array1=[56,66,67,32,54,90,69,58,54,65];
+array1.push(77);
+console.log(array1);
+
+
+let info={
+    myname:"pooja",
+    age:"23",
 };
-if(object3.person1==="pooja")  //if(object3.person1===object3.person2)
- {
-    alert("My name is pooja");
-}
-else{
-    alert("My name is Shivani");
+if(info.myname ==="pooja" && info.age > 20){
+    alert(info.age);
 };
