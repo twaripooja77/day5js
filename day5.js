@@ -126,7 +126,41 @@
 // add(10,20);
 // add(200,200);
 
-function mul(a, b){
-return alert(a*b);
+// function mul(a, b){
+// return alert(a*b);
+// }
+// mul(20, 12);
+
+// function number1(){
+//     let a=20;
+//     let b=5;
+//     if(a>b){
+//       return  alert(a/b);
+//     }
+// }
+// number1();    // call gareko 
+
+// function number(a,b){
+//     if(a>b){
+//         return alert(a/b);
+//     }
+// }
+// number(20, 12);
+
+// function number2(){
+//     let a=9;
+//     let b=19;
+//     if(!(a>b)){
+//         return alert("hehe");
+//     }
+// }
+// number2();
+
+
+//LOOP
+ let array=[1,2,3,4,5];
+for(i=0; i < array.length ;i++){
+    console.log(array[i]);
 }
-mul(20, 12);
+
+
