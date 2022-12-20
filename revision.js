@@ -219,6 +219,7 @@
 // console.log(array1);
 
 
+//MAP in array of objects
 let person=[
     {
         firstName:"Pooja",
@@ -238,6 +239,33 @@ function fullname(name){
  
 }
 console.log(updateperson);
+
+
+
+//filter
+
+let person1=[
+    {
+        firstName:"Pooja",
+        lastName:"Tiwari",
+        age: 23
+    },
+    {
+        firstName:"Pawan",
+        lastName:"Tiwari",
+        age: 19
+    },
+];
+const updatepersons=person1.filter(filterId);            //MAP in array of objects
+function filterId(name1){   
+  return name1.firstName === "Pooja";
+ 
+}
+console.log(updatepersons);
+
+
+
+
 
 
 
